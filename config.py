@@ -41,7 +41,7 @@ FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "120")) # auto delete in se
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "1119579816 6427494689 6315792232 1735152469 5574593875 7211073530").split()):
+    for x in (os.environ.get("ADMINS", "1119579816 6427494689 1785065025 6315792232 1735152469 5574593875 7211073530").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
